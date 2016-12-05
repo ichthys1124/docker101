@@ -1,0 +1,8 @@
+2016-12-05 11:53:48,871 [INFO] from application in main - ApplicationTimer demo: Starting application at 2016-12-05T02:53:48.857Z.
+2016-12-05 11:53:48,885 [INFO] from play.api.Play in main - Application started (Prod)
+2016-12-05 11:53:49,228 [INFO] from play.core.server.NettyServer in main - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2016-12-05 11:54:30,092 [INFO] from application in Thread-7 - ApplicationTimer demo: Stopping application at 2016-12-05T02:54:30.092Z after 42s.
+2016-12-05 11:54:52,155 [INFO] from application in main - ApplicationTimer demo: Starting application at 2016-12-05T02:54:52.142Z.
+2016-12-05 11:54:52,172 [INFO] from play.api.Play in main - Application started (Prod)
+2016-12-05 11:54:52,481 [INFO] from play.core.server.NettyServer in main - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2016-12-05 11:55:18,748 [INFO] from application in Thread-7 - ApplicationTimer demo: Stopping application at 2016-12-05T02:55:18.748Z after 26s.
