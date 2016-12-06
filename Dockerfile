@@ -10,7 +10,6 @@ RUN apt-get install -y unzip
 
 -RUN apt-get install -y vim
 
-
 # java 1.8 
 
 ENV HOME /root
@@ -27,31 +26,7 @@ RUN \
 
   apt-get install -y oracle-java8-installer
 
-
-
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
-
-
-#insatll docker specific version
-
-RUN apt-get install -y -q apt-transport-https ca-certificates && \
-
-apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D && \
-
-apt-key adv -k 58118E89F3A912897C070ADBF76221572C52609D >/dev/null 
-
-
-RUN mkdir -p /etc/apt/sources.list.d
-
-RUN touch /etc/apt/sources.list.d/docker.list
-
-RUN chmod 777 /etc/apt/sources.list.d/docker.list
-
-RUN echo deb \[arch=amd64\] https://apt.dockerproject.org/repo ubuntu-trusty main > /etc/apt/sources.list.d/docker.list
-
-RUN apt-get update; apt-get install -y -q docker-engine=1.11.2-0~trusty
-
-RUN apt-mark hold docker-engine
 
 # ADD web service
 # locate web-bin
