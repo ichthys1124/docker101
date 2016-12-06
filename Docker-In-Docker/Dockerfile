@@ -27,4 +27,4 @@ ADD src /src
 
 WORKDIR /src
 
-CMD["/src/launch.sh"]
+CMD ["/src/launch.sh"]
